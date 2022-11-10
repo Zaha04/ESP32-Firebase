@@ -14,20 +14,20 @@ int distance2;
 int distance; // variable for the distance measurement
 
 
-#define FIREBASE_HOST "https://esp32-ce825-default-rtdb.firebaseio.com/"      // Project name address from firebase id
+#define FIREBASE_HOST "YOUR_HOST"      // Project name address from firebase id
 
-#define WIFI_PASSWORD "unitsoul320" 
+#define WIFI_PASSWORD "YOUR_PASSWORD" 
 const int rosu1=33;
 const int verde1=23;
 const int rosu2=17;
 const int verde2=18;
 String o="ocupat";
-#define FIREBASE_AUTH "3zD04bBV2r8zw7Kw9r6riGRS7unDcE871Xnwrv1C"            //  Secret key generated from firebase
+#define FIREBASE_AUTH "SECRET_KEY"            //  Secret key generated from firebase
 
 String title="Loc1";
 String title2="Loc2";
 
-#define WIFI_SSID "Tenda_391F60"                                     // Enter your wifi name
+#define WIFI_SSID "WI_FI_SSID"                                     // Enter your wifi name
 
 String l="liber";
 FirebaseData firebasedata; 
